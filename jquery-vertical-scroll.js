@@ -1,7 +1,7 @@
 /* Copyright (c) 2009 Sean Soper
  * Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
  * jquery-glide
- * Version: 1.0 (Nov 10, 2009)
+ * Version: 1.1 (Nov 10, 2009)
  * Requires: jQuery 1.3.2+
  */
 
@@ -11,13 +11,15 @@
     var defaults = {
       duration: 500,
       interval: 5000,
-      easing: 'swing'
+      easing: 'swing',
+      height: $(this).css('height')
     };
     
     var opts = $.extend(defaults, options);
     var timer = null;
     var itemsCount = $(this).children('li').length;
-    $(this).children('li').css('position', 'relative');
+    $(this).css('overflow', 'hidden');
+    $(this).children('li').css({ 'position' : 'relative', 'height' : opts.height });
 
     var dotimer = function (elem) {
       if (timer != null) clearInterval(timer);
