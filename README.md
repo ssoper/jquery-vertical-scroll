@@ -4,7 +4,7 @@ jQuery-vertical-scroll does one thing only: scrolls content vertically. See inde
 ### Features
 * Multiple instances on one page
 * Options include duration, interval, height and easing method
-* Attaches to <code><ul></code> and <code><ol></code> elements
+* Attaches to `<ul>` and `<ol>` elements
 
 ### Supported Browsers
 * Firefox 2+
