@@ -1,6 +1,6 @@
 /* Copyright (c) 2009 Sean Soper
  * Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
- * jquery-vertical-scroller
+ * jquery-vertical-scroll
  * Version: 1.1 (Nov 10, 2009)
  * Requires: jQuery 1.3.2+
  */
